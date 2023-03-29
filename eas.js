@@ -4,4 +4,7 @@ const container2 = document.querySelector('#container2');
 
 function createGrid (gridValue) {
     let square;
+
+    if (gridValue > 100) {
+        prompt ("Number must be below 100")};
 };
