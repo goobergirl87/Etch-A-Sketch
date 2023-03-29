@@ -31,6 +31,15 @@ h2 {
     line-height:120%;
 }
 
+#container1 {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-right: 100px;
+    height: 500px;
+    width: 430px;
+}
+
 .squareStyle{
     border: 0.5px solid rgb(185, 185, 185);
     background-color: white;
