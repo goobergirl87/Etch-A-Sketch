@@ -14,6 +14,9 @@ function createGrid (gridValue) {
         const square = document.createElement('div');
         square.classList.add('squareStyle');
 
+        square.onmousemove = function(){
+            square.style.backgroundColor = 'blue';
+        };
         container2.appendChild(square);
     };
 };
