@@ -1,0 +1,1 @@
+let gridValue = prompt ("Type a number not any bigger than 100");
