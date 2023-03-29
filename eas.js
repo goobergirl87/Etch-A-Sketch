@@ -7,4 +7,6 @@ function createGrid (gridValue) {
 
     if (gridValue > 100) {
         prompt ("Number must be below 100")};
+
+    container2.setAttribute(`style`, `display: grid; grid-template-columns: repeat(${gridValue},1fr); grid-template-rows: repeat(${gridValue}, 1fr`);
 };
