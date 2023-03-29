@@ -11,6 +11,7 @@ function createGrid (gridValue) {
     container2.setAttribute(`style`, `display: grid; grid-template-columns: repeat(${gridValue},1fr); grid-template-rows: repeat(${gridValue}, 1fr`);
 
     for (let i = 0; i < gridValue*gridValue; i++){
+        const square = document.createElement('div');
 
     };
 };
