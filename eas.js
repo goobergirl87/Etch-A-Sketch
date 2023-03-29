@@ -12,6 +12,7 @@ function createGrid (gridValue) {
 
     for (let i = 0; i < gridValue*gridValue; i++){
         const square = document.createElement('div');
+        square.classList.add('squareStyle');
 
     };
 };
