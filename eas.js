@@ -17,3 +17,5 @@ function createGrid (gridValue) {
         container2.appendChild(square);
     };
 };
+
+createGrid(gridValue);
