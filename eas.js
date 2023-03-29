@@ -19,3 +19,9 @@ function createGrid (gridValue) {
 };
 
 createGrid(gridValue);
+
+const startOver = document.querySelectorAll('startAgain');
+startAgain.addEventListener('click', function(){
+  window.location.reload();
+  return false;
+});
